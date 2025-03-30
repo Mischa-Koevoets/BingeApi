@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BingeClient (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "BingeClient (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
