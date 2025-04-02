@@ -1,4 +1,6 @@
-﻿namespace BingeClient.Models
+﻿using System.Collections.Generic;
+
+namespace BingeClient.Models
 {
     public class Series
     {

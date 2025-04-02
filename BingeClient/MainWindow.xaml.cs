@@ -26,11 +26,8 @@ namespace BingeClient
         public MainWindow()
         {
             this.InitializeComponent();
-        }
-
-        private void myButton_Click(object sender, RoutedEventArgs e)
-        {
-            myButton.Content = "Clicked";
+            //navigate to main page
+            MainFrame.Navigate(typeof(MainPage));
         }
     }
 }

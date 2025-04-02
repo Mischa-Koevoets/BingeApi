@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "BingeApi\\BingeApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BingeClient\\BingeClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

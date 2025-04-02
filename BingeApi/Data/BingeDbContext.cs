@@ -4,7 +4,21 @@ namespace BingeApi.Data
 {
     public class BingeDbContext : DbContext
     {
-        public BingeDbContext(DbContextOptions<BingeDbContext> options) : base(options) { }
+        private readonly IConfiguration _configuration;
+
+        public BingeDbContext(DbContextOptions<BingeDbContext> options, IConfiguration configuration) : base(options)
+        {
+            _configuration = configuration;
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+            }
+        }
 
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Series> Series { get; set; }
@@ -18,4 +32,5 @@ namespace BingeApi.Data
             modelBuilder.Entity<SeriesGenre>().HasKey(sg => new { sg.SeriesId, sg.GenreId });
         }
     }
+
 }

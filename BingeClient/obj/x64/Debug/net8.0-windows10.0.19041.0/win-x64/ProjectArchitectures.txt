@@ -1,0 +1,1 @@
+C:\Users\misch\Documents\GitHub\BingeApi\BingeClient\BingeClient.csproj;x64

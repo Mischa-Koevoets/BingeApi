@@ -4,18 +4,20 @@ using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using BingeClient.Models;
 using BingeClient;
+using BingeTrackerApp.Pages;
 
 namespace BingeClient
 {
     public sealed partial class MainPage : Page
     {
         private readonly ApiService _apiService = new ApiService();
-        public ObservableCollection<MovieSeries> MoviesSeries { get; set; } = new();
+        public ObservableCollection<MovieOrSeries> MoviesSeries { get; set; } = new();
 
         public MainPage()
         {
             this.InitializeComponent();
             LoadMoviesAndSeries();
+
         }
 
         private async void LoadMoviesAndSeries()
@@ -26,7 +28,10 @@ namespace BingeClient
             {
                 MoviesSeries.Add(item);
             }
+            MoviesSeriesList.ItemsSource = MoviesSeries;
         }
+
+        
 
         private void AddMovieSeries_Click(object sender, RoutedEventArgs e)
         {
@@ -35,7 +40,7 @@ namespace BingeClient
 
         private void MoviesSeriesList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (MoviesSeriesList.SelectedItem is MovieSeries selected)
+            if (MoviesSeriesList.SelectedItem is MovieOrSeries selected)
             {
                 Frame.Navigate(typeof(DetailPage), selected);
             }

@@ -3,6 +3,8 @@ using Windows.UI.Xaml.Controls;
 using System;
 using BingeClient;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Navigation;
+using Microsoft.UI.Xaml;
 
 namespace BingeClient
 {
@@ -17,7 +19,7 @@ namespace BingeClient
             _apiService = new ApiService();
         }
 
-        protected override async void OnNavigatedTo(Windows.UI.Xaml.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
 
@@ -35,7 +37,7 @@ namespace BingeClient
             }
         }
 
-        private async void SaveButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        private async void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             var updatedItem = new MovieOrSeries
             {
@@ -47,14 +49,18 @@ namespace BingeClient
 
             var success = await _apiService.UpdateMovieOrSeriesAsync(updatedItem);
 
+            Frame.Navigate(typeof(MainPage));
+
+        }
+
+        private async void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            var itemToDelete = new MovieOrSeries { Id = _itemId };
+            var success = await _apiService.DeleteMovieOrSeriesAsync(itemToDelete);
+
             if (success)
             {
-                // Optionally, navigate back or show a success message
                 Frame.Navigate(typeof(MainPage));
-            }
-            else
-            {
-                // Handle error
             }
         }
     }

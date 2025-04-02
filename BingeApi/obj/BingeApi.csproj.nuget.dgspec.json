@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\misch\\Documents\\BingeApi\\BingeApi\\BingeApi.csproj": {}
+    "C:\\Users\\misch\\Documents\\GitHub\\BingeApi\\BingeApi\\BingeApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\misch\\Documents\\BingeApi\\BingeApi\\BingeApi.csproj": {
+    "C:\\Users\\misch\\Documents\\GitHub\\BingeApi\\BingeApi\\BingeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\misch\\Documents\\BingeApi\\BingeApi\\BingeApi.csproj",
+        "projectUniqueName": "C:\\Users\\misch\\Documents\\GitHub\\BingeApi\\BingeApi\\BingeApi.csproj",
         "projectName": "BingeApi",
-        "projectPath": "C:\\Users\\misch\\Documents\\BingeApi\\BingeApi\\BingeApi.csproj",
+        "projectPath": "C:\\Users\\misch\\Documents\\GitHub\\BingeApi\\BingeApi\\BingeApi.csproj",
         "packagesPath": "C:\\Users\\misch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\misch\\Documents\\BingeApi\\BingeApi\\obj\\",
+        "outputPath": "C:\\Users\\misch\\Documents\\GitHub\\BingeApi\\BingeApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,7 +53,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[8.0.13, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

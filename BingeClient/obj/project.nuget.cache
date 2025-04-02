@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hBX6xknax64=",
+  "dgSpecHash": "7uZ4apV1MEM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\misch\\Documents\\BingeApi\\BingeClient\\BingeClient.csproj",
+  "projectFilePath": "C:\\Users\\misch\\Documents\\GitHub\\BingeApi\\BingeClient\\BingeClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\misch\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\misch\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
@@ -10,16 +10,16 @@
     "C:\\Users\\misch\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250310001\\microsoft.windowsappsdk.1.7.250310001.nupkg.sha512",
     "C:\\Users\\misch\\.nuget\\packages\\system.runtime.windowsruntime\\4.7.0\\system.runtime.windowsruntime.4.7.0.nupkg.sha512",
     "C:\\Users\\misch\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.7.0\\system.runtime.windowsruntime.ui.xaml.4.7.0.nupkg.sha512",
-    "C:\\Users\\misch\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.13\\microsoft.netcore.app.runtime.win-x86.8.0.13.nupkg.sha512",
+    "C:\\Users\\misch\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.14\\microsoft.netcore.app.runtime.win-x86.8.0.14.nupkg.sha512",
     "C:\\Users\\misch\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
-    "C:\\Users\\misch\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.13\\microsoft.aspnetcore.app.runtime.win-x86.8.0.13.nupkg.sha512",
-    "C:\\Users\\misch\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\8.0.13\\microsoft.netcore.app.runtime.win-arm64.8.0.13.nupkg.sha512",
-    "C:\\Users\\misch\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.13\\microsoft.aspnetcore.app.runtime.win-x64.8.0.13.nupkg.sha512",
-    "C:\\Users\\misch\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\8.0.13\\microsoft.windowsdesktop.app.runtime.win-arm64.8.0.13.nupkg.sha512",
-    "C:\\Users\\misch\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.13.nupkg.sha512",
-    "C:\\Users\\misch\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\8.0.13\\microsoft.aspnetcore.app.runtime.win-arm64.8.0.13.nupkg.sha512",
-    "C:\\Users\\misch\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.13\\microsoft.netcore.app.runtime.win-x64.8.0.13.nupkg.sha512",
-    "C:\\Users\\misch\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.13\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.13.nupkg.sha512"
+    "C:\\Users\\misch\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.14\\microsoft.aspnetcore.app.runtime.win-x86.8.0.14.nupkg.sha512",
+    "C:\\Users\\misch\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\8.0.14\\microsoft.netcore.app.runtime.win-arm64.8.0.14.nupkg.sha512",
+    "C:\\Users\\misch\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.14\\microsoft.aspnetcore.app.runtime.win-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\misch\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\8.0.14\\microsoft.windowsdesktop.app.runtime.win-arm64.8.0.14.nupkg.sha512",
+    "C:\\Users\\misch\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.14\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\misch\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\8.0.14\\microsoft.aspnetcore.app.runtime.win-arm64.8.0.14.nupkg.sha512",
+    "C:\\Users\\misch\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.14\\microsoft.netcore.app.runtime.win-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\misch\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.14\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.14.nupkg.sha512"
   ],
   "logs": []
 }
